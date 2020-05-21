@@ -56,15 +56,39 @@
 		7354BEEB2476BE1C00D3E4B1 /* ticTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				7354BF022476BE5E00D3E4B1 /* View */,
+				7354BF012476BE5500D3E4B1 /* controller */,
+				7354BF002476BE3C00D3E4B1 /* Model */,
 				7354BEEC2476BE1C00D3E4B1 /* AppDelegate.swift */,
 				7354BEEE2476BE1C00D3E4B1 /* SceneDelegate.swift */,
-				7354BEF02476BE1C00D3E4B1 /* ViewController.swift */,
-				7354BEF22476BE1C00D3E4B1 /* Main.storyboard */,
 				7354BEF52476BE2300D3E4B1 /* Assets.xcassets */,
-				7354BEF72476BE2300D3E4B1 /* LaunchScreen.storyboard */,
 				7354BEFA2476BE2300D3E4B1 /* Info.plist */,
 			);
 			path = ticTacToe;
+			sourceTree = "<group>";
+		};
+		7354BF002476BE3C00D3E4B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7354BF012476BE5500D3E4B1 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				7354BEF02476BE1C00D3E4B1 /* ViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		7354BF022476BE5E00D3E4B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7354BEF72476BE2300D3E4B1 /* LaunchScreen.storyboard */,
+				7354BEF22476BE1C00D3E4B1 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
