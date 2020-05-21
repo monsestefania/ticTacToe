@@ -106,6 +106,10 @@ class ViewController: UIViewController {
                 msg = "Player 2 is winner"
             }
             print(msg)
+            let alert = UIAlertController(title: "Winner ", message: msg, preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+            
             
         }
         
